@@ -5,8 +5,8 @@ print(books[0])
 #  recieves a book dictionary
 #  returns the number of authors that the book has
 def number_of_authors(book):
-    ...
-
+    authors_num = len(book["authors"])
+    return authors_num
 
 print(number_of_authors(books[0]))
 
